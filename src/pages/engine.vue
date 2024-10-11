@@ -4,13 +4,13 @@
     <h3 class="text-center font-weight-thin">Engines</h3>
     <v-divider class="my-8" />
     <v-row justify="center">
-      <v-sheet width="1200" class="mt-8">
+      <v-sheet width="1000" class="mt-8">
         <v-row>
           <v-col v-for="(v, i) in models" :key="i" cols="3">
             <v-card :disabled="!v.isSwitch" shaped>
-              <h2 class="text-center mt-3">{{ v.name }}</h2>
-              <h4 class="text-center font-weight-thin">Engines</h4>
-              <v-divider class="ma-8" />
+              <h3 class="text-center mt-3">{{ v.name }}</h3>
+              <h5 class="text-center font-weight-thin">Engines</h5>
+              <v-divider class="ma-5" />
 
               <v-card-text>
                 <v-row justify="center">
@@ -27,10 +27,11 @@
                   <v-progress-circular
                     model-value="20"
                     width="10"
-                    size="150"
+                    size="130"
                     :color="v.color"
-                    ><p class="text-h4">20%</p></v-progress-circular
                   >
+                    <p class="text-h6">20%</p>
+                  </v-progress-circular>
                 </v-row>
               </v-card-text>
 

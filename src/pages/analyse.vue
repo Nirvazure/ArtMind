@@ -1,26 +1,26 @@
 <template>
   <v-container>
-    <h1 class="text-center">ArtMind</h1>
-    <h3 class="text-center font-weight-thin">Analyse</h3>
+    <!-- <h1 class="text-center">Analyse</h1> -->
+    <!-- <h4 class="text-center font-weight-thin"></h4> -->
 
     <picture-input
-      class="my-10"
+      class="mb-10"
       ref="pictureInput"
-      width="1200"
-      height="600"
+      width="600"
+      height="300"
       margin="16"
       accept="image/jpeg,image/png"
       size="10"
       button-class="btn"
       :custom-strings="{
-        drag: 'Upload Area',
+        drag: '请上传图片',
       }"
       @change="onChange"
     >
     </picture-input>
 
     <v-row justify="center">
-      <v-sheet width="1200">
+      <v-sheet width="600">
         <v-row justify="space-between">
           <v-btn-toggle
             class="mx-4"
@@ -56,7 +56,7 @@
             {{ btnText }}
           </v-btn>
         </v-row>
-        <v-divider class="my-8" />
+        <v-divider class="my-3" />
         <v-row justify="center">
           <v-col lg="4">
             <v-skeleton-loader type="card-avatar" v-if="loading"></v-skeleton-loader>

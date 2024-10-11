@@ -1,3 +1,23 @@
+<!-- ## ArtMind -->
+<h2 align="center">ArtMind</h2>
+<h3 align="center">最懂你的人工智能分析引擎</h3>
+<p>
+  <h4 align="center"><code>ArtMind</code> is a Front-end component project.</h4>
+  <h4 align="center">Component demo based on <a href="https://github.com/vuejs/vue">vue</a> and <a href="https://github.com/vuetifyjs/vuetify">vuetify</a></h4>
+</p>
+
+<p align="center">
+  <a href="https://github.com/vasttian/vue-admin-vuetify/tags">
+    <img src="https://img.shields.io/github/tag-date/vasttian/vue-admin-vuetify.svg" alt="TAGS">
+  </a>
+  <a href="https://github.com/vasttian/vue-admin-vuetify/releases">
+    <img src="https://img.shields.io/github/release/vasttian/vue-admin-vuetify/all.svg" alt="RELEASE">
+  </a>
+  <a href="https://github.com/vasttian/vue-admin-vuetify/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="LICENSE">
+  </a>
+</p>
+
 # Vuetify (Default)
 
 This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
@@ -14,12 +34,12 @@ This is the official scaffolding tool for Vuetify, designed to give you a head s
 
 Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
 
-| Package Manager                                                | Command        |
-|---------------------------------------------------------------|----------------|
-| [yarn](https://yarnpkg.com/getting-started)                   | `yarn install` |
-| [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)     | `npm install`  |
-| [pnpm](https://pnpm.io/installation)                          | `pnpm install` |
-| [bun](https://bun.sh/#getting-started)                        | `bun install`  |
+| Package Manager                                           | Command        |
+| --------------------------------------------------------- | -------------- |
+| [yarn](https://yarnpkg.com/getting-started)               | `yarn install` |
+| [npm](https://docs.npmjs.com/cli/v7/commands/npm-install) | `npm install`  |
+| [pnpm](https://pnpm.io/installation)                      | `pnpm install` |
+| [bun](https://bun.sh/#getting-started)                    | `bun install`  |
 
 After completing the installation, your environment is ready for Vuetify development.
 
@@ -76,6 +96,7 @@ This project is built with [Vuetify](https://vuetifyjs.com/en/), a UI Library wi
 - [Making a one-time donation with Paypal](https://paypal.me/vuetify)
 
 ## 📑 License
+
 [MIT](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2016-present Vuetify, LLC

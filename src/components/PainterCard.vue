@@ -1,17 +1,17 @@
 <template>
-  <v-card variant="tonal" class="text-center" height="350">
-    <v-card-title class="font-weight-black">{{ name }}</v-card-title>
-    <v-card-subtitle>文艺复兴</v-card-subtitle>
+  <v-card variant="tonal" class="text-center" height="250">
+    <!-- <v-card-title class="font-weight-black"></v-card-title> -->
+    <v-card-subtitle class="mt-5">{{ name }}</v-card-subtitle>
     <v-card-text class="text-center">
-      <v-progress-circular model-value="20" size="150" width="40" color="primary">
-        <v-avatar size="130">
+      <v-progress-circular model-value="20" size="120" width="20" color="primary">
+        <v-avatar size="100">
           <v-img :src="url" />
         </v-avatar>
       </v-progress-circular>
     </v-card-text>
-    <v-chip class="my-4 px-10" size="large" dark color="primary" variant="elevated"
-      >90%</v-chip
-    >
+    <v-chip class="my-4 px-10" size="medium" dark color="primary" variant="elevated">
+      文艺复兴
+    </v-chip>
 
     <v-card-actions class="white justify-center" v-if="showSocial">
       <v-btn

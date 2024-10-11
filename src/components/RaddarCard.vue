@@ -1,5 +1,5 @@
 <template>
-  <v-card variant="tonal" class="text-center" height="350">
+  <v-card variant="tonal" class="text-center" height="250">
     <Radar :data="chartData" :options="options" />
   </v-card>
 </template>
@@ -58,6 +58,7 @@ export default {
           },
         ],
       },
+
       options: {
         responsive: true,
         maintainAspectRatio: false,
